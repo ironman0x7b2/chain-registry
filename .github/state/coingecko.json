@@ -651,25 +651,6 @@
       }
     },
     {
-      "coingecko_id": "zignaly",
-      "name": "ZIGChain",
-      "symbol": "ZIG",
-      "assets": [
-        {
-          "chain_name": "zigchain",
-          "base_denom": "uzig"
-        },
-        {
-          "chain_name": "ethereum",
-          "base_denom": "0xb2617246d0c6c0087f18703d576831899ca94f01"
-        },
-        {
-          "chain_name": "zigchaintestnet",
-          "base_denom": "uzig"
-        }
-      ]
-    },
-    {
       "coingecko_id": "babylon",
       "name": "Babylon",
       "symbol": "BABY",
@@ -2037,37 +2018,6 @@
       }
     },
     {
-      "coingecko_id": "elys-network",
-      "name": "Elys",
-      "symbol": "ELYS",
-      "assets": [
-        {
-          "chain_name": "elys",
-          "base_denom": "uelys"
-        },
-        {
-          "chain_name": "neutron",
-          "base_denom": "ibc/28FC965E05DB1A4C0A6DE6B720F67AFF8CAB571FE262824976DDDFF49A4BAAF7"
-        },
-        {
-          "chain_name": "osmosis",
-          "base_denom": "ibc/643EBFFC9D4533E93A5CF144FE786A6FB326F4C0C6224F7CB7563CC374EE56EE"
-        },
-        {
-          "chain_name": "xion",
-          "base_denom": "ibc/DBE9697AC1044255A305A2034AD360B4152632BFBFB5785234731F60196B9645"
-        },
-        {
-          "chain_name": "elystestnet",
-          "base_denom": "uelys"
-        }
-      ],
-      "origin_asset": {
-        "chain_name": "elys",
-        "base_denom": "uelys"
-      }
-    },
-    {
       "coingecko_id": "xion-2",
       "name": "XION",
       "symbol": "XION",
@@ -2807,25 +2757,6 @@
       }
     },
     {
-      "coingecko_id": "usk",
-      "name": "USK",
-      "symbol": "USK",
-      "assets": [
-        {
-          "chain_name": "kujira",
-          "base_denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk"
-        },
-        {
-          "chain_name": "osmosis",
-          "base_denom": "ibc/44492EAB24B72E3FB59B9FA619A22337FB74F95D8808FE6BC78CC0E6C18DC2EC"
-        }
-      ],
-      "origin_asset": {
-        "chain_name": "kujira",
-        "base_denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk"
-      }
-    },
-    {
       "coingecko_id": "aqualibre",
       "name": "Aqualibre",
       "symbol": "AQLA",
@@ -3259,6 +3190,21 @@
       }
     },
     {
+      "coingecko_id": "drop-staked-ntrn",
+      "name": "Drop Staked NTRN",
+      "symbol": "DNTRN",
+      "assets": [
+        {
+          "chain_name": "neutron",
+          "base_denom": "factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn"
+        }
+      ],
+      "origin_asset": {
+        "chain_name": "neutron",
+        "base_denom": "factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn"
+      }
+    },
+    {
       "coingecko_id": "drop-staked-atom",
       "name": "Drop Staked ATOM",
       "symbol": "DATOM",
@@ -3298,6 +3244,21 @@
       "origin_asset": {
         "chain_name": "neutron",
         "base_denom": "cw20:neutron1vjl4ze7gr32lar5s4fj776v70j4ml7mlt4aqln2hwgfhqjck8xwqfhx8vj"
+      }
+    },
+    {
+      "coingecko_id": "maxbtc",
+      "name": "maxBTC",
+      "symbol": "MAXBTC",
+      "assets": [
+        {
+          "chain_name": "neutron",
+          "base_denom": "factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc"
+        }
+      ],
+      "origin_asset": {
+        "chain_name": "neutron",
+        "base_denom": "factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc"
       }
     },
     {
@@ -3887,25 +3848,6 @@
       }
     },
     {
-      "coingecko_id": "sienna",
-      "name": "Sienna",
-      "symbol": "SIENNA",
-      "assets": [
-        {
-          "chain_name": "osmosis",
-          "base_denom": "ibc/9A8A93D04917A149C8AC7C16D3DA8F470D59E8D867499C4DA97450E1D7363213"
-        },
-        {
-          "chain_name": "secretnetwork",
-          "base_denom": "cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4"
-        }
-      ],
-      "origin_asset": {
-        "chain_name": "secretnetwork",
-        "base_denom": "cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4"
-      }
-    },
-    {
       "coingecko_id": "stkd-scrt",
       "name": "Stkd SCRT",
       "symbol": "STKD",
@@ -3941,37 +3883,6 @@
       "origin_asset": {
         "chain_name": "planq",
         "base_denom": "aplanq"
-      }
-    },
-    {
-      "coingecko_id": "quicksilver",
-      "name": "Quicksilver",
-      "symbol": "QCK",
-      "assets": [
-        {
-          "chain_name": "osmosis",
-          "base_denom": "ibc/635CB83EF1DFE598B10A3E90485306FD0D47D34217A4BE5FD9977FA010A5367D"
-        },
-        {
-          "chain_name": "quicksilver",
-          "base_denom": "uqck"
-        },
-        {
-          "chain_name": "osmosistestnet",
-          "base_denom": "ibc/F37CF69589DE12342758382F8770C0852CD8D2E4519F55166EBDAF472AD667C9"
-        },
-        {
-          "chain_name": "quicksilvertestnet",
-          "base_denom": "uqck"
-        },
-        {
-          "chain_name": "quicksilvertestnet2",
-          "base_denom": "uqck"
-        }
-      ],
-      "origin_asset": {
-        "chain_name": "quicksilver",
-        "base_denom": "uqck"
       }
     },
     {
@@ -4128,8 +4039,8 @@
     },
     {
       "coingecko_id": "xpla",
-      "name": "XPLA",
-      "symbol": "XPLA",
+      "name": "CONX",
+      "symbol": "CONX",
       "assets": [
         {
           "chain_name": "osmosis",
@@ -4435,6 +4346,21 @@
       }
     },
     {
+      "coingecko_id": "garudax",
+      "name": "GarudaX",
+      "symbol": "GRDX",
+      "assets": [
+        {
+          "chain_name": "osmosis",
+          "base_denom": "ibc/A91095096C44646CB885509AEF56842DD37CB7897E602D7200A1CCF6414AA0D2"
+        }
+      ],
+      "origin_asset": {
+        "chain_name": "terra",
+        "base_denom": "cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw"
+      }
+    },
+    {
       "coingecko_id": "qubetics",
       "name": "Qubetics",
       "symbol": "TICS",
@@ -4522,6 +4448,21 @@
       "origin_asset": {
         "chain_name": "terra2",
         "base_denom": "cw20:terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar"
+      }
+    },
+    {
+      "coingecko_id": "eureka-bridged-pax-gold-terra",
+      "name": "Eureka Bridged PAX Gold (Terra)",
+      "symbol": "PAXG",
+      "assets": [
+        {
+          "chain_name": "terra2",
+          "base_denom": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62"
+        }
+      ],
+      "origin_asset": {
+        "chain_name": "cosmoshub",
+        "base_denom": "ibc/09E95F57939E344EE36109AC41780B8A51F1FE0548A5203C5957674FF64C0F26"
       }
     },
     {
@@ -4661,6 +4602,29 @@
       "origin_asset": {
         "chain_name": "zetachain",
         "base_denom": "azeta"
+      }
+    },
+    {
+      "coingecko_id": "zignaly",
+      "name": "ZIGChain",
+      "symbol": "ZIG",
+      "assets": [
+        {
+          "chain_name": "zigchain",
+          "base_denom": "uzig"
+        },
+        {
+          "chain_name": "ethereum",
+          "base_denom": "0xb2617246d0c6c0087f18703d576831899ca94f01"
+        },
+        {
+          "chain_name": "zigchaintestnet",
+          "base_denom": "uzig"
+        }
+      ],
+      "origin_asset": {
+        "chain_name": "ethereum",
+        "base_denom": "0xb2617246d0c6c0087f18703d576831899ca94f01"
       }
     },
     {
@@ -5236,21 +5200,6 @@
       }
     },
     {
-      "coingecko_id": "yieldeth-sommelier",
-      "name": "YieldETH (Sommelier)",
-      "symbol": "YIELDETH",
-      "assets": [
-        {
-          "chain_name": "ethereum",
-          "base_denom": "0xb5b29320d2Dde5BA5BAFA1EbcD270052070483ec"
-        }
-      ],
-      "origin_asset": {
-        "chain_name": "ethereum",
-        "base_denom": "0xb5b29320d2Dde5BA5BAFA1EbcD270052070483ec"
-      }
-    },
-    {
       "coingecko_id": "tbtc",
       "name": "tBTC",
       "symbol": "TBTC",
@@ -5327,21 +5276,6 @@
       "origin_asset": {
         "chain_name": "ethereum",
         "base_denom": "0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38"
-      }
-    },
-    {
-      "coingecko_id": "staked-frax",
-      "name": "Staked FRAX",
-      "symbol": "SFRAX",
-      "assets": [
-        {
-          "chain_name": "ethereum",
-          "base_denom": "0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32"
-        }
-      ],
-      "origin_asset": {
-        "chain_name": "ethereum",
-        "base_denom": "0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32"
       }
     },
     {
@@ -5664,6 +5598,21 @@
       }
     },
     {
+      "coingecko_id": "tether-gold",
+      "name": "Tether Gold",
+      "symbol": "XAUT",
+      "assets": [
+        {
+          "chain_name": "ethereum",
+          "base_denom": "0x68749665ff8d2d112fa859aa293f07a622782f38"
+        }
+      ],
+      "origin_asset": {
+        "chain_name": "ethereum",
+        "base_denom": "0x68749665ff8d2d112fa859aa293f07a622782f38"
+      }
+    },
+    {
       "coingecko_id": "fantom",
       "name": "Fantom",
       "symbol": "FTM",
@@ -5891,7 +5840,7 @@
     },
     {
       "coingecko_id": "matic-network",
-      "name": "Polygon",
+      "name": "MATIC (migrated to POL)",
       "symbol": "MATIC",
       "assets": [
         {
@@ -6380,6 +6329,25 @@
       "origin_asset": {
         "chain_name": "xrpl",
         "base_denom": "xrpl570c00a604"
+      }
+    },
+    {
+      "coingecko_id": "zcash",
+      "name": "Zcash",
+      "symbol": "ZEC",
+      "assets": [
+        {
+          "chain_name": "zcash",
+          "base_denom": "zatoshi"
+        },
+        {
+          "chain_name": "zcashtestnet",
+          "base_denom": "zatoshi"
+        }
+      ],
+      "origin_asset": {
+        "chain_name": "zcash",
+        "base_denom": "zatoshi"
       }
     },
     {
